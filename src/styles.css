@@ -1,0 +1,56 @@
+/***  Link to google fonts in head of html documents.
+    font-family: 'DM Serif Display', serif; --> font-weight: 400 (regular)
+    font-family: 'Public Sans', sans-serif; --> font-weight: 400 (regular) & 700 (bold) ***/
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** GENERAL TYPOGRAPHY ***/
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+}
+/* Figma Info: These heading levels are for guidance purposes only.
+The actual heading level used in the code may differ. */
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+/* h1 small */
+.heading__main--small {
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    line-height: 56px; 
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* h3 small */
+.heading__three--small {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+}
