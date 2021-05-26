@@ -8,55 +8,50 @@
     box-sizing: border-box;
 }
 
-/*** GENERAL TYPOGRAPHY ***/
+/* ====================
+    General Typography
+======================= */
 body {
     font-family: 'Public Sans', sans-serif;
     font-size: 15px;
     line-height: 28px;
 }
-/* Figma Info: These heading levels are for guidance purposes only.
-The actual heading level used in the code may differ. */
+
+/* Mobile Version */
 h1 {
     font-family: 'DM Serif Display', serif;
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
 }
 
-/* h1 small */
-.heading__main--small {
-    font-family: 'DM Serif Display', serif;
-    font-size: 56px;
-    line-height: 56px;
-}
-
-h2 {
-    font-family: 'DM Serif Display', serif;
-    font-size: 48px;
-    line-height: 56px; 
-}
-
-h3 {
+/* e.g. Ready to start? */
+h2 { 
     font-family: 'DM Serif Display', serif;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 36px;
+    letter-spacing: -0.25px; 
 }
 
-/* h3 small */
-.heading__three--small {
-    font-family: 'Public Sans', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 700;
-}
-
-h4 {
+/* e.g. Free Plan */
+h3 { 
     font-family: 'DM Serif Display', serif;
     font-size: 24px;
     line-height: 32px;
+    letter-spacing: -0.18px;
 }
 
+/* e.g. personal finances*/
+h4 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+}
 
-/*** HEADER ***/
+/* ====================
+         Header
+======================= */
 header {
     display: flex;
     justify-content: space-between;
