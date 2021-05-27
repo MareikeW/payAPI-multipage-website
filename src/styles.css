@@ -129,3 +129,17 @@ nav button {
     letter-spacing: -0.43px;
     color: #BA4270;
 }
+
+.culture-people__section {
+    margin: 0 1.6rem 5rem 1.6rem;
+    text-align: center;
+    color: #36536B;
+}
+
+.culture-people__section h3 {
+    margin: 2.67rem 0 1rem 0;
+}
+
+.culture-people__section p {
+    color: #6C8294;
+}
