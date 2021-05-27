@@ -15,6 +15,7 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-size: 15px;
     line-height: 28px;
+    background-color: #F2F2F2;;
 }
 
 /* Mobile Version */
@@ -23,6 +24,7 @@ h1 {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.25px;
+    font-weight: 400;
 }
 
 /* e.g. Ready to start? */
@@ -30,7 +32,8 @@ h2 {
     font-family: 'DM Serif Display', serif;
     font-size: 32px;
     line-height: 36px;
-    letter-spacing: -0.25px; 
+    letter-spacing: -0.25px;
+    font-weight: 400; 
 }
 
 /* e.g. Free Plan */
@@ -39,6 +42,7 @@ h3 {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.18px;
+    font-weight: 400;
 }
 
 /* e.g. personal finances*/
@@ -47,6 +51,7 @@ h4 {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.14px;
+    font-weight: 700;
 }
 
 /* ====================
@@ -55,7 +60,7 @@ h4 {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 40px 24px 0;
+    margin: 40px 24px 38px 25px;
 }
 
 .logo,
@@ -66,4 +71,75 @@ header {
 nav ul,
 nav button {
     display: none;
+}
+
+/* ====================
+         About
+======================= */
+.vision-business__section {
+    margin: 0 1.6rem 5rem 1.6rem;
+    text-align: center;
+    color: #36536B;
+}
+
+.vision-business__section h3 {
+    margin: 2.67rem 0 1rem 0;
+}
+
+.vision-business__section p {
+    color: #6C8294;
+}
+
+.about__img {
+    background-image: url("./assets/about/mobile/image-team-members.jpg");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.company-numbers__section {
+    margin: 3.2rem 1.6rem;
+    text-align: center;
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+}
+
+.company-number__container {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.company-number__container:last-child {
+    margin-bottom: 16px;
+}
+
+.company-number__container h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: rgba(54, 83, 107, 0.7);
+}
+
+.company-number__container p {
+    font-family: 'DM Serif Display', serif;
+    line-height: 72px;
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    color: #BA4270;
+}
+
+.culture-people__section {
+    margin: 0 1.6rem 5rem 1.6rem;
+    text-align: center;
+    color: #36536B;
+}
+
+.culture-people__section h3 {
+    margin: 2.67rem 0 1rem 0;
+}
+
+.culture-people__section p {
+    color: #6C8294;
 }
