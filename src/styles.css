@@ -280,9 +280,52 @@ nav button {
 
 .innovators__container--light {
     margin: 32px auto 80px auto;
-    
+    width: 280px;
+    height: 154px;
+    position: relative;
 }
 
-.innovators__container--light img {
+.tesla__logo--dark,
+.microsoft__logo--dark,
+.hewlett__logo--dark,
+.oracle__logo--dark,
+.google__logo--dark,
+.nvidia__logo--dark {
+    position: absolute;
+}
 
+.tesla__logo--dark {
+    top: 5.87px;
+    left: 2px;
+    height: 14.26px;
+}
+
+.microsoft__logo--dark {
+    top: 0;
+    right: 0;
+    height: 26px;
+}
+
+.hewlett__logo--dark {
+    top: 59px;
+    left: 0;
+    height: 22px;
+}
+
+.oracle__logo--dark {
+    top: 65px;
+    right: 0;
+    height: 13.85px;
+}
+
+.google__logo--dark {
+    bottom: 0;
+    left: 8px;
+    height: 27px;
+}
+
+.nvidia__logo--dark {
+    bottom: 0;
+    right: 8.85px;
+    height: 21.27px;
 }
