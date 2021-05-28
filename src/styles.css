@@ -189,3 +189,84 @@ nav button {
 .culture-people__section p {
     color: #6C8294;
 }
+
+
+/* ====================
+        Contact
+======================= */
+.contact-form__section {
+    text-align: center;
+    color: #36536B;
+}
+
+.contact__form {
+    max-width: 327px;
+    margin: 40px auto 80px auto;
+    display: flex;
+    flex-direction: column;
+    height: 499px;
+    justify-content: space-between;
+}
+
+.contact__form input,
+.contact__form textarea {
+    border: none;
+    background-color: unset;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(54, 83, 107, 0.5);
+    font-family: 'Public Sans', sans-serif;
+    color:rgba(54, 83, 107, 0.5);
+}
+
+.contact__form input {
+    padding-bottom: 17px;
+}
+
+.contact__form textarea {
+    padding-bottom: 64px;
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+    outline: none;
+}
+
+.contact-checkbox__container {
+    text-align: left;
+    position: relative;
+    height: 50px;
+}
+
+.contact-checkbox__container #newsletter__checkbox {
+    position: absolute;
+    top: 40%;
+    left: 0; 
+    opacity: 0;
+}
+
+.checkmark--custom {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: rgba(54, 83, 107, 0.25);
+    cursor: pointer;
+}
+
+.contact-checkbox__container label {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+.contact__form button {
+    width: 152px;
+    height: 48px;
+    border-radius: 24px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    color: #36536B;
+    cursor: pointer;
+    border: 1.5px solid #36536B;
+}

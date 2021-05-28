@@ -27,18 +27,21 @@
       </nav>
     </header>
 
-    <section>
+    <section class="contact-form__section">
       <h1>Submit a help request and we’ll get in touch shortly.</h1>
 
-      <form>
+      <form class="contact__form">
         <input type="text" placeholder="Name" aria-label="name" />
         <input type="email" placeholder="Email Address" aria-label="email" />
         <input type="text" placeholder="Company Name" aria-label="company name" />
         <input type="text" placeholder="Title" aria-label="title" />
         <textarea placeholder="Message" aria-label="message"></textarea>
-        <input type="checkbox" id="newsletter__checkbox" />
-        <label for="newsletter__checkbox">Stay up-to-date with company announcements and updates to our API</label>
-        <input type="submit" value="Submit" aria-label="submit" />
+        <div class="contact-checkbox__container">
+          <input type="checkbox" id="newsletter__checkbox" />
+          <span class="checkmark--custom"></span>
+          <label for="newsletter__checkbox">Stay up-to-date with company announcements and updates to our API</label>
+        </div>
+        <button type="submit">Submit</button>
       </form>
     </section>
 
