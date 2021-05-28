@@ -31,14 +31,14 @@
       <h1>Submit a help request and we’ll get in touch shortly.</h1>
 
       <form>
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email Address" />
-        <input type="text" placeholder="Company Name" />
-        <input type="text" placeholder="Title" />
-        <textarea placeholder="Message"></textarea>
-        <input type="checkbox" id="newsletter__checkbox"/>
+        <input type="text" placeholder="Name" aria-label="name" />
+        <input type="email" placeholder="Email Address" aria-label="email" />
+        <input type="text" placeholder="Company Name" aria-label="company name" />
+        <input type="text" placeholder="Title" aria-label="title" />
+        <textarea placeholder="Message" aria-label="message"></textarea>
+        <input type="checkbox" id="newsletter__checkbox" />
         <label for="newsletter__checkbox">Stay up-to-date with company announcements and updates to our API</label>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" aria-label="submit" />
       </form>
     </section>
 
@@ -54,11 +54,11 @@
       </div>
     </section>
 
-    <section>
+    <section class="ready-to-start__section">
       <h2>Ready to start?</h2>
       <form>
-        <input type="email" placeholder="Enter email address" />
-        <input type="submit" value="Schedule a Demo" />
+        <input type="email" placeholder="Enter email address" aria-label="email" class="ready-to-start__email"/>
+        <input type="submit" value="Schedule a Demo" aria-label="submit" class="ready-to-start__submit" />
       </form>
     </section>
   </body>
