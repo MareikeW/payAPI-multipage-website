@@ -197,6 +197,7 @@ nav button {
 .contact-form__section {
     text-align: center;
     color: #36536B;
+    margin: 0 24px;
 }
 
 .contact__form {
@@ -269,4 +270,19 @@ nav button {
     color: #36536B;
     cursor: pointer;
     border: 1.5px solid #36536B;
+}
+
+.innovators__section--light {
+    color:rgba(54, 83, 107, 0.75);
+    text-align: center;
+    margin: 0 48px;
+}
+
+.innovators__container--light {
+    margin: 32px auto 80px auto;
+    
+}
+
+.innovators__container--light img {
+
 }
