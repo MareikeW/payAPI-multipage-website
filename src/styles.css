@@ -96,6 +96,12 @@ nav button {
     order: -1;
 }
 
+.form--email {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* ====================
     Index/Home
 ======================= */
