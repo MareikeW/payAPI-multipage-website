@@ -93,6 +93,7 @@ nav button {
 .container__img--index {
     display: block;
     width: 50%;
+    order: -1;
 }
 
 /* ====================
