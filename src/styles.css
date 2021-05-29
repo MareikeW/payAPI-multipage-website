@@ -87,12 +87,13 @@ nav button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1em;
     background: #F2F2F2;
 }
 
 .container__img--index {
     display: block;
-    width: 50%;
+    width: 60%;
     order: -1;
 }
 
