@@ -83,7 +83,6 @@ nav button {
 /* ====================
     General Layout
 ======================= */
-
 .form {
     display: flex;
     flex-direction: column;
@@ -118,7 +117,15 @@ nav button {
 /* ====================
     Index/Home
 ======================= */
-.container--intro {
+#bg-circle {
+    width: 100%;
+    position: absolute;
+    top: -60%;
+    z-index: 1;
+    transform: scale(2);
+}
+
+.container__index--intro {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -143,6 +150,7 @@ nav button {
 .intro-img-container {
     order: -1;
     position: relative;
+    z-index: 2;
 }
 
 .intro-img {
@@ -151,6 +159,7 @@ nav button {
     margin-bottom: 0;
     position: relative;
     left: 20px;
+    font-family: 'Public Sans';
 }
 
 .intro-content__note {
