@@ -54,6 +54,11 @@ h4 {
     font-weight: 700;
 }
 
+.heading--dark {
+    color: #36536B;
+
+}
+
 /* ====================
          Header
 ======================= */
@@ -72,6 +77,29 @@ nav ul,
 nav button {
     display: none;
 }
+
+/* ====================
+    General Layout
+======================= */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #F2F2F2;
+}
+
+.container__img--index {
+    display: block;
+    width: 50%;
+}
+
+/* ====================
+    Index/Home
+======================= */
+
+
 
 /* ====================
  Ready-To-Start-Container
