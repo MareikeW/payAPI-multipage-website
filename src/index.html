@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <img src="./assets/shared/desktop/bg-pattern-circle.svg" id="bg-circle">
     <header>
       <div class="header__container">
         <a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="PayAPI logo" class="logo" /></a>
@@ -29,15 +30,22 @@
         </div>
       </nav>
     </header>
-    <section>
-      <h3> Start building with our APIs for absolutely free.</h3>
-      <img src="./assets/home/desktop/illustration-phone-mockup.svg" alt="Illustrated mockup of phone"> 
-      <form>
-        <input type="email" name="email" placeholder="Enter email address" aria-label="email">
-        <input type="submit" value="Schedule a Demo">
-      </form>
-      <p>Have any questions? <strong>Contact Us</strong></p>
+
+    <section class="container__index--intro">
+      <div class="intro-content">
+        <h1 class="section-heading--dark section-heading--intro"> Start building with our APIs for absolutely free.</h1>
+        <form class="form">
+          <input class="form__input form__input--email" type="email" name="email" placeholder="Enter email address" aria-label="email">
+          <input class="form__input form__input--btn" type="submit" value="Schedule a Demo">
+        </form>
+        <p class="intro-content__note">Have any questions? <strong>Contact Us</strong></p>
+      </div>
+      <div class="intro-img-container">
+        <img class= "intro-img" src="./assets/home/desktop/illustration-phone-mockup.svg" alt="Illustrated mockup of phone"> 
+      </div>
+
     </section>
+
     <section>
       <h3>Who we work with</h3>
       <div>
