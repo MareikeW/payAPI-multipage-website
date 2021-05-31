@@ -54,6 +54,10 @@ h4 {
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ====================
          Header
 ======================= */
@@ -62,43 +66,54 @@ h4 {
     justify-content: space-between;
     padding: 40px 24px 38px 25px;
     position: relative;
+    align-items: center;
 }
 
 .logo,
-#menu--open {
+#menu--open,
+#menu--closed,
+.button__navigation--dark {
     cursor: pointer;
-    background-color: red;
+}
+
+#menu--open {
+    height: 17px;
 }
 
 .navigation {
-    width: 90vw;
+    width: 70vw;
     height: 100vh;
     background-color: rgb(27, 38, 47);
-    margin-left: auto;
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: -90vw;
+    margin-right: -70vw;
+    z-index: 10;
 }
 
 #menu--closed {
     float: right;
-    cursor: pointer;
     margin-right: 27px;
     margin-top: 48px;
+    margin-bottom: 24px;
 }
 
 .header__pages {
     list-style: none;
     text-align: center;
-    width: 80%;
+    width: 90%;
     clear: right;
     border-top: 1px solid rgba(251, 252, 254, 0.15);
     margin: 0 auto;
+    padding-top: 27px;
+    padding-bottom: 16px;
 }
 
 .header__page {
-    text-decoration: none;
+    padding: 16px;
+}
+
+.header__page a {
     color: rgba(251, 252, 254, 0.7);
     font-size: 20px;
 }
@@ -118,7 +133,6 @@ h4 {
     border-radius: 24px;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     padding: 16px 65px;
-    cursor: pointer;
 }
 
 

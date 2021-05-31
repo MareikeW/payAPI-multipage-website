@@ -14,18 +14,18 @@
   <body>
     <header>
       <div class="header__container">
-        <a href="#"><img src="./assets/shared/desktop/logo.svg" alt="PayAPI logo" class="logo" /></a>
+        <a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="PayAPI logo" class="logo" /></a>
         <img src="./assets/shared/mobile/menu.svg" alt="Open navigation menu icon" id="menu--open" />
       </div>
       <nav class="navigation">
         <img src="./assets/shared/mobile/close.svg" alt="Close Menu Icon" id="menu--closed" />
         <ul class="header__pages">
-          <li><a href="./pricing.html" class="header__page"><strong>Pricing</strong></a></li>
-          <li><a href="./about.html" class="header__page"><strong>About</strong></a></li>
-          <li><a href="./contact.html" class="header__page"><strong>Contact</strong></a></li>
+          <li class="header__page"><a href="./pricing.html" ><strong>Pricing</strong></a></li>
+          <li class="header__page"><a href="./about.html"><strong>About</strong></a></li>
+          <li  class="header__page"><a href="./contact.html"><strong>Contact</strong></a></li>
         </ul>
         <div class="button__container--centered">
-          <button class="button__navigation--dark">Schedule a Demo</button> 
+          <button class="button__navigation--dark" onclick="window.location.href='./contact.html'">Schedule a Demo</button> 
         </div>
       </nav>
     </header>
@@ -73,21 +73,16 @@
       const closeMenu = document.getElementById("menu--closed");
       const navigation = document.getElementsByClassName("navigation");
 
-      openMenu.addEventListener("click", toggleNavigation);
-      closeMenu.addEventListener("click", toggleNavigation);
-
-      function toggleNavigation() {
-        navigation[0].style.marginRight === 0 ? closeNavigation() : openNavigation();
-      }
+      openMenu.addEventListener("click", openNavigation);
+      closeMenu.addEventListener("click", closeNavigation);
 
       function openNavigation() {
         navigation[0].style.marginRight = 0;
       }
 
       function closeNavigation() {
-        navigation[0].style.marginRight = "-90vw";
+        navigation[0].style.marginRight = "-70vw";
       }
-
     </script>
   </body>
 
