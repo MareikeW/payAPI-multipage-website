@@ -13,17 +13,20 @@
 
   <body>
     <header>
-      <div class="logo__container">
+      <div class="header__container">
         <a href="#"><img src="./assets/shared/desktop/logo.svg" alt="PayAPI logo" class="logo" /></a>
+        <img src="./assets/shared/mobile/menu.svg" alt="Open navigation menu icon" id="menu--open" />
       </div>
-      <nav>
-        <img src="./assets/shared/mobile/menu.svg" alt="Menu Icon" id="menu--hidden" />
-        <ul>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+      <nav class="navigation">
+        <img src="./assets/shared/mobile/close.svg" alt="Close Menu Icon" id="menu--closed" />
+        <ul class="header__pages">
+          <li><a href="./pricing.html" class="header__page"><strong>Pricing</strong></a></li>
+          <li><a href="./about.html" class="header__page"><strong>About</strong></a></li>
+          <li><a href="./contact.html" class="header__page"><strong>Contact</strong></a></li>
         </ul>
-        <button>Schedule a Demo</button> 
+        <div class="button__container--centered">
+          <button class="button__navigation--dark">Schedule a Demo</button> 
+        </div>
       </nav>
     </header>
 
@@ -64,6 +67,28 @@
         <input type="submit" value="Schedule a Demo" aria-label="submit" class="ready-to-start__submit" />
       </form>
     </section>
+
+    <script>
+      const openMenu = document.getElementById("menu--open");
+      const closeMenu = document.getElementById("menu--closed");
+      const navigation = document.getElementsByClassName("navigation");
+
+      openMenu.addEventListener("click", toggleNavigation);
+      closeMenu.addEventListener("click", toggleNavigation);
+
+      function toggleNavigation() {
+        navigation[0].style.marginRight === 0 ? closeNavigation() : openNavigation();
+      }
+
+      function openNavigation() {
+        navigation[0].style.marginRight = 0;
+      }
+
+      function closeNavigation() {
+        navigation[0].style.marginRight = "-90vw";
+      }
+
+    </script>
   </body>
 
 </html>
