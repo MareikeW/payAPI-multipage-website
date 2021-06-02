@@ -54,12 +54,21 @@ h4 {
     font-weight: 700;
 }
 
+p {
+    font-weight: 400;
+}
+
 a {
     text-decoration: none;
 }
 
 .section-heading--dark {
     color: #36536B;
+}
+
+.section-heading--light {
+    color: #FBFCFE;
+
 }
 
 /* ====================
@@ -177,6 +186,9 @@ a {
 /* ====================
     Index/Home
 ======================= */
+
+/* Intro - section */
+
 .container__index {
     padding: 5em 2em;
 }
@@ -231,7 +243,19 @@ a {
 
 }
 
+/* Who We Work With - section */
+.container__index--work {
+    display: flex;
+    flex-direction: column;
+    background: #1B262F;
+    text-align: center;
 
+}
+
+.work-text {
+    color: #FBFCFE;
+
+}
 
 /* ====================
  Ready-To-Start-Container
