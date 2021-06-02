@@ -177,6 +177,10 @@ a {
 /* ====================
     Index/Home
 ======================= */
+.container__index {
+    padding: 5em 2em;
+}
+
 #bg-circle {
     width: 100%;
     position: absolute;
