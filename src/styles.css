@@ -252,8 +252,8 @@ a {
 
 }
 
-.company-logo {
-    fill: #FFF;
+.company-logo * {
+    fill: white;
 }
 
 .work-text {
