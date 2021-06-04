@@ -304,6 +304,9 @@ a {
 }
 
 /* Easy to implement - section */
+.section-heading--implement {
+    font-size: 3em;
+}
 
 /* ====================
  Ready-To-Start-Container
