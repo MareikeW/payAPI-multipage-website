@@ -191,17 +191,15 @@ a {
 
 .container__index {
     padding: 6em 2em;
-}
-
-
-
-.container__index--intro {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
+}
+
+.container__index--intro {
+    position: relative;
+    align-items: center;
     padding: 0em 2em 2em 2em;
     background: #EDF3F8;
     /* border: 1px solid purple; */
@@ -304,6 +302,8 @@ a {
     border-radius: 5em;
     margin-top: 3.75em;
 }
+
+/* Easy to implement - section */
 
 /* ====================
  Ready-To-Start-Container
