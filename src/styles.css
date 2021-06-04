@@ -193,13 +193,7 @@ a {
     padding: 6em 2em;
 }
 
-.bg-circle--header {
-    width: 100%;
-    position: absolute;
-    top: -60%;
-    z-index: 1;
-    transform: scale(2);
-}
+
 
 .container__index--intro {
     position: relative;
@@ -211,6 +205,14 @@ a {
     padding: 0em 2em 2em 2em;
     background: #EDF3F8;
     /* border: 1px solid purple; */
+}
+
+.bg-circle--header {
+    width: 100%;
+    position: absolute;
+    top: -60%;
+    z-index: 1;
+    transform: scale(2);
 }
 
 .intro-content {
@@ -249,7 +251,16 @@ a {
     flex-direction: column;
     background: #1B262F;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
 
+.bg-circle--work {
+    position: absolute;
+    top: -80%;
+    width: 100%;
+    align-self: center;
+    transform: scale(2);
 }
 
 .company-logo-container {
