@@ -193,7 +193,7 @@ a {
     padding: 6em 2em;
 }
 
-#bg-circle {
+.bg-circle--header {
     width: 100%;
     position: absolute;
     top: -60%;
