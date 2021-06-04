@@ -12,7 +12,9 @@
   </head>
 
   <body>
-    <img src="./assets/shared/desktop/bg-pattern-circle.svg" class="bg-circle--header">
+    <div class="bg-circle-container">
+      <img src="./assets/shared/desktop/bg-pattern-circle.svg" class="bg-circle--header">
+    </div>
     <header>
       <div class="header__container">
         <a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="PayAPI logo" class="logo" /></a>
@@ -31,7 +33,7 @@
       </nav>
     </header>
 
-    <section class="container__index--intro">
+    <section class="container__index container__index--intro">
       <div class="intro-content">
         <h1 class="section-heading--dark section-heading--intro"> Start building with our APIs for absolutely free.</h1>
         <form class="form">
@@ -95,7 +97,9 @@
 
     <section class="container__index container__index--implement">
       <h2 class="section-heading--dark section-heading--implement">Easy to implement</h2>
-      <img src="./assets/home/desktop/illustration-easy-to-implement.svg" alt="An illustrated code block">
+      <div class="img-container--implement">
+        <img class="section-img--implement" src="./assets/home/desktop/illustration-easy-to-implement.svg" alt="An illustrated code block">
+      </div>
       <p>
         Our API comes with just a few lines of code. You’ll be up and running in 
         no time. We built our documentation page to integrate payments functionality 

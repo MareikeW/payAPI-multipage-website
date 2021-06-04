@@ -204,13 +204,19 @@ a {
     background: #EDF3F8;
     /* border: 1px solid purple; */
 }
+.bg-circle-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
 
 .bg-circle--header {
-    width: 100%;
+    max-width: 500px;
     position: absolute;
-    top: -60%;
     z-index: 1;
+    top: -60%;
     transform: scale(2);
+    border: 1px solid orange;
 }
 
 .intro-content {
@@ -306,6 +312,15 @@ a {
 /* Easy to implement - section */
 .section-heading--implement {
     font-size: 3em;
+}
+
+.img-container--implement {
+    order: -1;
+    border: 1px solid green;
+}
+
+.section-img--implement {
+    width: 100%;
 }
 
 /* ====================
