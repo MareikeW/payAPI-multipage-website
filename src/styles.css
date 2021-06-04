@@ -252,9 +252,27 @@ a {
 
 }
 
+.company-logo-container {
+    order: -1;
+    margin-bottom: 3.5em;
+}
+
 .company-logo * {
     fill: white;
 }
+
+.company-logo-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.4em;
+}
+
+.company-logo-group-last {
+    margin-bottom: 0;
+}
+
+
 
 .work-text {
     color: #FBFCFE;
