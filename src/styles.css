@@ -94,14 +94,15 @@ a {
 }
 
 .navigation {
-    width: 70vw;
+    width: 0;
     height: 100vh;
     background-color: rgb(27, 38, 47);
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: -70vw;
     z-index: 10;
+    transition: 500ms ease-in;
+    overflow: hidden;
 }
 
 #menu--closed {
@@ -146,6 +147,7 @@ a {
     border-radius: 24px;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     padding: 16px 65px;
+    width: 252px;
 }
 
 
@@ -180,6 +182,14 @@ a {
 .form__input--btn {
     background: #BA4270;
     color: #FBFCFE;
+}
+
+.bg-circle__container--hero {
+    width: 100px;
+}
+
+.bg-circle--hero {
+
 }
 
 
