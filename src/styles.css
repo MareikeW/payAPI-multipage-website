@@ -80,6 +80,7 @@ a {
     padding: 40px 24px 38px 25px;
     position: relative;
     align-items: center;
+    z-index: 20;
 }
 
 .logo,
@@ -103,6 +104,7 @@ a {
     z-index: 10;
     transition: 500ms ease-in;
     overflow: hidden;
+    z-index: 30;
 }
 
 #menu--closed {
@@ -185,12 +187,21 @@ a {
 }
 
 .bg-circle__container--hero {
-    width: 100px;
+    width: 96.7vw;
+    overflow: hidden;
+    position: relative;
+    height: 140px;
+    margin-top: -140px;
+    
 }
 
 .bg-circle--hero {
-
+    margin-top: -660px;
+    left: 100px;
+    top: 0;
+    position: absolute;
 }
+
 
 
 /* ====================
