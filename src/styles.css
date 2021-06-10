@@ -80,6 +80,7 @@ a {
     padding: 40px 24px 38px 25px;
     position: relative;
     align-items: center;
+    z-index: 20;
 }
 
 .logo,
@@ -94,14 +95,16 @@ a {
 }
 
 .navigation {
-    width: 70vw;
+    width: 0;
     height: 100vh;
     background-color: rgb(27, 38, 47);
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: -70vw;
     z-index: 10;
+    transition: 500ms ease-in;
+    overflow: hidden;
+    z-index: 30;
 }
 
 #menu--closed {
@@ -146,6 +149,7 @@ a {
     border-radius: 24px;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     padding: 16px 65px;
+    width: 252px;
 }
 
 
@@ -181,6 +185,23 @@ a {
     background: #BA4270;
     color: #FBFCFE;
 }
+
+.bg-circle__container--hero {
+    width: 96.7vw;
+    overflow: hidden;
+    position: relative;
+    height: 140px;
+    margin-top: -140px;
+    
+}
+
+.bg-circle--hero {
+    margin-top: -660px;
+    left: 100px;
+    top: 0;
+    position: absolute;
+}
+
 
 
 /* ====================

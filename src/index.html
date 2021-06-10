@@ -171,11 +171,13 @@
       closeMenu.addEventListener("click", closeNavigation);
 
       function openNavigation() {
-        navigation[0].style.marginRight = 0;
+        navigation[0].style.opacity = 1;
+        navigation[0].style.width = "70vw";       
       }
 
       function closeNavigation() {
-        navigation[0].style.marginRight = "-70vw";
+        navigation[0].style.opacity = 0;
+        navigation[0].style.width = 0;        
       }
     </script>
   </body>

@@ -29,6 +29,10 @@
       </nav>
     </header>
 
+    <div class="bg-circle__container--hero">
+      <img src="./assets/shared/desktop/bg-pattern-circle.svg" class="bg-circle--hero" />
+    </div>
+
     <section class="vision-business__section">
       <h1>We empower innovators by delivering access to the financial system</h1>
       <div>
@@ -96,11 +100,13 @@
       closeMenu.addEventListener("click", closeNavigation);
 
       function openNavigation() {
-        navigation[0].style.marginRight = 0;
+        navigation[0].style.opacity = 1;
+        navigation[0].style.width = "70vw";       
       }
 
       function closeNavigation() {
-        navigation[0].style.marginRight = "-70vw";
+        navigation[0].style.opacity = 0;
+        navigation[0].style.width = 0;        
       }
     </script>
   </body>
