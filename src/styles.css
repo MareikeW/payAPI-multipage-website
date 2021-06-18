@@ -337,6 +337,7 @@ a {
 
 .container__index--implement {
     position: relative;
+    background: #EDF3F8;
 }
 
 .section-heading--implement {
@@ -360,6 +361,10 @@ a {
 }
 
 /* Simple UI & UX - section */
+
+.container__index--features {
+    background: #EDF3F8;
+}
 
 .img-container--simple {
     order: -1;
@@ -385,6 +390,7 @@ a {
 
 .container__index-features {
     padding-top: 0;
+    background: #EDF3F8;
 }
 
 .feature {
@@ -425,6 +431,7 @@ a {
     text-align: center;
     color: #36536B;
     margin-bottom: 80px;
+    background: #EDF3F8;
 }
 
 .ready-to-start__section form {
