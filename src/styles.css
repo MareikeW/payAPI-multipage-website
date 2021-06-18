@@ -237,7 +237,7 @@ a {
     z-index: 1;
     top: -60%;
     transform: scale(2);
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .intro-content {
