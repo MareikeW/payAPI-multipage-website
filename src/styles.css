@@ -403,6 +403,11 @@ a {
     width: 30%;
 }
 
+.feature-title {
+    font-size: 1.125rem;
+    color: #36536B;
+}
+
 /* ====================
  Ready-To-Start-Container
 ======================= */
