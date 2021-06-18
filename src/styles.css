@@ -348,6 +348,8 @@ a {
 
 .section-img--implement {
     width: 100%;
+    position: relative;
+    left: 20px;
 }
 
 .implement-text {
