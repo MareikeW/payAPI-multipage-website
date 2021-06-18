@@ -400,7 +400,8 @@ a {
 
 .feature-img {
     order: -1;
-    width: 30%;
+    width: 25%;
+    max-width: 125px;
     margin-bottom: 2.1em;
 }
 
