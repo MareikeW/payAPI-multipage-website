@@ -226,7 +226,7 @@ a {
     /* border: 1px solid purple; */
 }
 .bg-circle-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -237,7 +237,7 @@ a {
     z-index: 1;
     top: -60%;
     transform: scale(2);
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .intro-content {
