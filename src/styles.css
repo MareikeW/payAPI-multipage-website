@@ -332,17 +332,26 @@ a {
 }
 
 /* Easy to implement - section */
+
+.container__index--implement {
+    position: relative;
+}
+
 .section-heading--implement {
     font-size: 3em;
 }
 
 .img-container--implement {
     order: -1;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .section-img--implement {
     width: 100%;
+}
+
+.implement-text {
+    color: #6C8294;
 }
 
 /* ====================
