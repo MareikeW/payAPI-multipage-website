@@ -358,6 +358,11 @@ a {
     color: #6C8294;
 }
 
+/* Simple UI & UX - section */
+.img-container--simple {
+    order: -1;
+    /* border: 1px solid green; */
+}
 /* ====================
  Ready-To-Start-Container
 ======================= */
