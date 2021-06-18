@@ -392,6 +392,10 @@ a {
     flex-direction: column;
 }
 
+.feature-img {
+    order: -1;
+}
+
 /* ====================
  Ready-To-Start-Container
 ======================= */
