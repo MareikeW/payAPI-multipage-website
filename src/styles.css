@@ -217,6 +217,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border: 1px solid purple;
 }
 
 .container__index--intro {
@@ -377,6 +378,11 @@ a {
 
 .simple-text {
     color: #6C8294;
+}
+
+/* Features -section */
+.container__index-features {
+    padding-top: 0;
 }
 
 /* ====================
