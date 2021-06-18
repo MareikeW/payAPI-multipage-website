@@ -363,6 +363,13 @@ a {
     order: -1;
     /* border: 1px solid green; */
 }
+
+.section-img--simple {
+    width: 100%;
+    position: relative;
+    left: 20px;
+}
+
 /* ====================
  Ready-To-Start-Container
 ======================= */
