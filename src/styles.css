@@ -370,6 +370,10 @@ a {
     left: 20px;
 }
 
+.section-heading--simple {
+    margin-bottom: 0.7em;
+    font-size: 2.5em;
+}
 /* ====================
  Ready-To-Start-Container
 ======================= */
