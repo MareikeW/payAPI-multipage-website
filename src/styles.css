@@ -226,7 +226,7 @@ a {
     /* border: 1px solid purple; */
 }
 .bg-circle-container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     justify-content: center;
 }
@@ -281,11 +281,12 @@ a {
 }
 
 .bg-circle--work {
+    max-width: 500px;
     position: absolute;
-    top: -80%;
-    width: 100%;
-    align-self: center;
+    z-index: 1;
+    top: -79%;
     transform: scale(2);
+    /* border: 1px solid orange; */
 }
 
 .company-logo-container {
