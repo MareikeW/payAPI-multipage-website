@@ -408,6 +408,13 @@ a {
     font-size: 1.125rem;
     color: #36536B;
     margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.feature-text {
+    line-height: 167%;
+    letter-spacing: -0.007em;
+    color: #6C8294;
 }
 
 /* ====================
