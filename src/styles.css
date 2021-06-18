@@ -360,6 +360,7 @@ a {
 }
 
 /* Simple UI & UX - section */
+
 .img-container--simple {
     order: -1;
     /* border: 1px solid green; */
@@ -381,8 +382,14 @@ a {
 }
 
 /* Features -section */
+
 .container__index-features {
     padding-top: 0;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
 }
 
 /* ====================
