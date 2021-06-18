@@ -338,6 +338,7 @@ a {
 .container__index--implement {
     position: relative;
     background: #EDF3F8;
+    padding-top: 0;
 }
 
 .section-heading--implement {
@@ -362,8 +363,9 @@ a {
 
 /* Simple UI & UX - section */
 
-.container__index--features {
+.container__index--simple {
     background: #EDF3F8;
+    padding-top: 0;
 }
 
 .img-container--simple {
@@ -432,6 +434,7 @@ a {
     color: #36536B;
     margin-bottom: 80px;
     background: #EDF3F8;
+    padding-bottom: 6em;
 }
 
 .ready-to-start__section form {
