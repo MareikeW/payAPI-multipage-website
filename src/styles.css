@@ -710,6 +710,7 @@ footer {
 .footer__menu__item {
     margin-bottom: 1.94em;
     color: #FBFCFE;
+    font-weight: 700;
 }
 
 .footer__menu__item:last-child {
