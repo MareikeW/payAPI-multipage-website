@@ -713,3 +713,11 @@ footer {
 .footer__menu__item:last-child {
     margin-bottom: 0;
 }
+
+.footer__social__icon {
+    margin-right: 1.6em;
+}
+
+.footer__social__icon:last-child {
+    margin-right: 0;
+}
