@@ -705,6 +705,7 @@ footer {
 
 .footer__menu {
     margin: 2.5em auto;
+    text-align: center;
 }
 
 .footer__menu__item {
