@@ -700,3 +700,16 @@ footer {
 .footer__logo * {
     fill: #FBFCFE;
 }
+
+.footer__menu {
+    margin: 2.5em auto;
+}
+
+.footer__menu__item {
+    margin-bottom: 1.94em;
+    color: #FBFCFE;
+}
+
+.footer__menu__item:last-child {
+    margin-bottom: 0;
+}
