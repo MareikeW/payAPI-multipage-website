@@ -684,3 +684,15 @@ a {
     right: 8.85px;
     height: 21.27px;
 }
+
+/* ====================
+        Footer
+======================= */
+
+footer {
+    background: #1B262F;
+}
+
+.footer__logo * {
+    fill: #FBFCFE;
+}
