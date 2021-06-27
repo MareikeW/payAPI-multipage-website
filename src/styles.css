@@ -695,6 +695,8 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 2.6em 0 3.44em 0;
+    position: relative;
+    overflow-y: hidden;
 }
 
 .footer__logo * {
@@ -720,4 +722,12 @@ footer {
 
 .footer__social__icon:last-child {
     margin-right: 0;
+}
+
+
+.bg-circle--footer {
+    position: absolute;
+    bottom: -146%;
+    transform: scale(2);
+    max-width: 500px;
 }
