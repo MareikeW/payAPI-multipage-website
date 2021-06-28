@@ -549,6 +549,16 @@ a {
     color: rgba(54, 83, 107, 0.55);
 }
 
+.plan__btn {
+    display: inline-block;
+    color: #36536B;
+    font-weight: 700;
+    border: 1px solid #36536B;
+    padding: 0.8em 2.5em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
 /* ====================
          About
 ======================= */
