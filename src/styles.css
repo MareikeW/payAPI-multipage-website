@@ -497,6 +497,10 @@ a {
     Pricing
 ======================= */
 
+.body--pricing {
+    background: #EDF3F8;
+}
+
 .section-heading--pricing {
     margin-top: 0.5em;
 }
