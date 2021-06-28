@@ -453,7 +453,7 @@ a {
     text-align: center;
     color: #36536B;
     background: #EDF3F8;
-    padding-bottom: 6em;
+    padding: 5em 0;
 }
 
 .ready-to-start__section form {
