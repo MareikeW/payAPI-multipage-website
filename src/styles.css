@@ -537,6 +537,18 @@ a {
     margin-right: 1.5em;
 }
 
+.plan__option-chk--null {
+    visibility: hidden; /* hide checkmark but keep element dimensions */
+}
+
+.plan__option-title {
+    color: #36536B;
+}
+
+.plan__option-title--null {
+    color: rgba(54, 83, 107, 0.55);
+}
+
 /* ====================
          About
 ======================= */
