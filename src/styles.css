@@ -246,14 +246,11 @@ a {
     /* border: 1px solid orange; */
 }
 
-.container__index {
+.container--index-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
-
-.container__index--intro {
     position: relative;
     align-items: center;
     background: #EDF3F8;
@@ -290,13 +287,15 @@ a {
 }
 
 /* Who We Work With - section */
-.container__index--work {
+.container--index-work {
     display: flex;
+    width: 100%;
     flex-direction: column;
     background: #1B262F;
     text-align: center;
     position: relative;
     overflow: hidden;
+    padding: 5em 2em;
 }
 
 .bg-circle--work {
@@ -352,10 +351,11 @@ a {
 
 /* Easy to implement - section */
 
-.container__index--implement {
+.container--index-implement {
     position: relative;
     background: #EDF3F8;
     padding-top: 0;
+    padding: 5em 2em;
 }
 
 .section-heading--implement {
@@ -380,7 +380,7 @@ a {
 
 /* Simple UI & UX - section */
 
-.container__index--simple {
+.container--index-simple {
     background: #EDF3F8;
     padding-top: 0;
 }
@@ -407,8 +407,8 @@ a {
 
 /* Features -section */
 
-.container__index-features {
-    padding-top: 0;
+.container--index-features {
+    padding: 5em 2em;
     background: #EDF3F8;
 }
 
@@ -450,11 +450,13 @@ a {
     text-align: center;
     color: #36536B;
     background: #EDF3F8;
-    padding: 5em 0;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 .ready-to-start__section form {
     margin: 0 auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
