@@ -695,6 +695,7 @@ footer {
     align-items: center;
     padding: 2.6em 0 3.44em 0;
     position: relative;
+    z-index: 1;
     overflow-y: hidden;
 }
 
@@ -708,8 +709,8 @@ footer {
 }
 
 .footer__menu__item {
+    cursor: pointer;
     margin-bottom: 1.94em;
-    color: #FBFCFE;
     font-weight: 700;
 }
 
@@ -717,8 +718,13 @@ footer {
     margin-bottom: 0;
 }
 
+.footer__menu__item__link {
+    color:  #FBFCFE;
+}
+
 .footer__social__icon {
     margin-right: 1.6em;
+    cursor: pointer;
 }
 
 .footer__social__icon:last-child {
@@ -731,4 +737,5 @@ footer {
     bottom: -146%;
     transform: scale(2);
     max-width: 500px;
+    z-index: -1;
 }
