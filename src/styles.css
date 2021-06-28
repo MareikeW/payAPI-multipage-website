@@ -162,6 +162,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 0 2em;
 }
 
 .form {
@@ -498,6 +499,19 @@ a {
 
 .section-heading--pricing {
     margin: 0.5em 0 2em 0;
+}
+
+.plan__title {
+    color: #BA4270;
+    margin-bottom: 5em;
+}
+
+.plan__price {
+    font-size: 3.5em;
+    font-family: 'DM Serif Display', serif;
+    color: #36536B;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
 }
 
 /* ====================
