@@ -498,7 +498,11 @@ a {
 ======================= */
 
 .section-heading--pricing {
-    margin: 0.5em 0 2em 0;
+    margin-top: 0.5em;
+}
+
+.plan {
+    margin-top: 3em;
 }
 
 .plan__title {
