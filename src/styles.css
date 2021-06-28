@@ -220,6 +220,7 @@ a {
 /* Intro - section */
 .body--index {
     overflow-x: hidden;
+    background: #EDF3F8;
 }
 
 .header--index {
@@ -246,20 +247,16 @@ a {
 }
 
 .container__index {
-    padding: 6em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* border: 1px solid purple; */
 }
 
 .container__index--intro {
     position: relative;
     align-items: center;
-    padding: 0em 2em 2em 2em;
     background: #EDF3F8;
-    /* border: 1px solid purple; */
 }
 
 .intro-content {
