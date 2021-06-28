@@ -526,6 +526,11 @@ a {
 .plan__option-box {
     display: flex;
     align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.plan__option-box:last-child {
+    margin-bottom: 0;
 }
 
 .plan__option-chk {
