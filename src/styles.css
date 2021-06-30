@@ -69,8 +69,18 @@ a {
 
 .section-heading--light {
     color: #FBFCFE;
-
 }
+
+
+/* Tablet Version */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+}
+
 
 /* ====================
          Header
@@ -551,11 +561,11 @@ a {
     color: #36536B;
 }
 
-.vision-business__section h3 {
+.about__subheading {
     margin: 2.67rem 0 1rem 0;
 }
 
-.vision-business__section p {
+.description__text {
     color: #6C8294;
 }
 
@@ -605,13 +615,44 @@ a {
     color: #36536B;
 }
 
-.culture-people__section h3 {
-    margin: 2.67rem 0 1rem 0;
+
+/* Tablet Version */
+@media (min-width: 768px) {
+    .about__subheading {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.25px;
+        width: 223px;
+        margin: 0;
+    }
+
+    .description__container {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+
+    .description__text {
+        width: 456px;
+    }
+
+    .about__img {
+        background-image: url("./assets/about/tablet/image-team-members.jpg");
+        height: 267px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .company-numbers__container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1em;
+        padding-top: 1em;
+    }
 }
 
-.culture-people__section p {
-    color: #6C8294;
-}
 
 
 /* ====================
