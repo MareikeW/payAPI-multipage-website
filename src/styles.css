@@ -878,4 +878,13 @@ footer {
     .footer__social {
         margin-left: auto;
     }
+
+    .bg-circle--footer {
+        position: absolute;
+        top: 20%;
+        right: -36%;
+        transform: scale(2);
+        max-width: 500px;
+        z-index: -1;
+    }
 }
