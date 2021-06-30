@@ -850,3 +850,31 @@ footer {
     max-width: 500px;
     z-index: -1;
 }
+
+/* Footer - Tablet Version */
+@media screen and (min-width: 768px) {
+    footer {
+        flex-direction: row;
+        padding: 1.94em 2.5em;
+        align-items: center;
+    }
+
+    .footer__menu {
+        display: flex;
+        margin: unset;
+        margin-left: 4em;
+    }
+
+    .footer__menu__item {
+        margin: unset;
+        margin-right: 2.5em;
+    }
+
+    .footer__menu__item:last-child {
+        margin-right: 0;
+    }
+
+    .footer__social {
+        margin-left: auto;
+    }
+}
