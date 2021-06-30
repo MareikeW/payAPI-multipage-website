@@ -812,6 +812,7 @@ footer {
 
 .footer__logo * {
     fill: #FBFCFE;
+    cursor: pointer;
 }
 
 .footer__menu {
