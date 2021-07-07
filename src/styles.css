@@ -733,6 +733,7 @@ a {
     font-weight: 700;
     color: #36536B;
     cursor: pointer;
+    background-color: unset;
     border: 1.5px solid #36536B;
 }
 
@@ -742,56 +743,52 @@ a {
     margin: 0 48px;
 }
 
-.innovators__container--light {
-    margin: 32px auto 80px auto;
-    width: 280px;
-    height: 154px;
-    position: relative;
+.innovators__section--light  .company-logo-container {
+    order: -1;
+    margin-top: 48px;
+    margin-bottom: 3.5em;
 }
 
-.tesla__logo--dark,
-.microsoft__logo--dark,
-.hewlett__logo--dark,
-.oracle__logo--dark,
-.google__logo--dark,
-.nvidia__logo--dark {
-    position: absolute;
+.innovators__section--light  .company-logo * {
+    fill: #36536B;
 }
 
-.tesla__logo--dark {
-    top: 5.87px;
-    left: 2px;
-    height: 14.26px;
+.innovators__section--light  .company-logo-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.4em;
 }
 
-.microsoft__logo--dark {
-    top: 0;
-    right: 0;
-    height: 26px;
+.innovators__section--light  .company-logo-group-last {
+    margin-bottom: 0;
 }
 
-.hewlett__logo--dark {
-    top: 59px;
-    left: 0;
-    height: 22px;
-}
 
-.oracle__logo--dark {
-    top: 65px;
-    right: 0;
-    height: 13.85px;
-}
 
-.google__logo--dark {
-    bottom: 0;
-    left: 8px;
-    height: 27px;
-}
+/*       Tablet          */
+@media (min-width: 768px) {
+    .contact-form__section h1 {
+        width: 530px;
+        margin: 0 auto;
+    }
 
-.nvidia__logo--dark {
-    bottom: 0;
-    right: 8.85px;
-    height: 21.27px;
+    .contact__form {
+        min-width: 445px;
+    }
+
+    .contact__form input,
+    .contact__form textarea {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.12px;
+    }
+
+    .innovators__section--light h3 {
+        width: 445px;
+        margin: 0 auto;
+    }
+
 }
 
 /* ====================
