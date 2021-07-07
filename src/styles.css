@@ -398,28 +398,25 @@ a {
 .company-logo-container {
     order: -1;
     margin-bottom: 3.5em;
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+    row-gap: 2.85em;
+}
+
+.company-logo {
+    display: block;
 }
 
 .company-logo * {
     fill: white;
 }
 
-.company-logo-group {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2.4em;
-}
-
-.company-logo-group-last {
-    margin-bottom: 0;
-}
 
 .section-heading--work {
     margin-bottom: 1em;
 }
-
-
 
 .work-text {
     color: #FBFCFE;
@@ -427,6 +424,7 @@ a {
     line-height: 2em;
 
 }
+
 .btn--outline {
     color: #FBFCFE;
     font-weight: 700;
@@ -435,6 +433,13 @@ a {
     align-self: center;
     border-radius: 5em;
     margin-top: 3.75em;
+}
+
+/* Tablet Version */
+@media (min-width: 768px) {
+    .company-logo-container {
+        grid-template: repeat(2, auto) / repeat(3, auto);
+    }
 }
 
 /* Easy to implement - section */
