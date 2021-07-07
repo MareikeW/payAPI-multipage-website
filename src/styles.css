@@ -547,7 +547,7 @@ a {
     padding-bottom: 5em;
 }
 
-.ready-to-start__section form {
+.ready-to-start__form {
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -557,8 +557,23 @@ a {
     outline: unset;
 }
 
+.form__input--ready-to-start {
+    width: 100%;
+}
+
 .ready-to-start__section input:focus {
     outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .ready-to-start__form {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .form__input--ready-to-start-email {
+        padding-right: 17em;
+    }
 }
 
 /* ====================
