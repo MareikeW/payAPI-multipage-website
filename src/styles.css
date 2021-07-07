@@ -128,7 +128,7 @@ a {
 .header__pages {
     list-style: none;
     text-align: center;
-    width: 90%;
+    width: 300px;
     clear: right;
     border-top: 1px solid rgba(251, 252, 254, 0.15);
     margin: 0 auto;
@@ -161,6 +161,74 @@ a {
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     padding: 16px 65px;
     width: 252px;
+}
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        position: unset;
+        z-index: 0;
+        margin-right: 3em;
+    }
+    
+    #menu--open {
+        display: none;
+    }
+    
+    .navigation {
+        width: auto;
+        height: 38px;
+        background-color: unset;
+        position: unset;
+        transition: unset;
+        overflow: unset;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+    }
+    
+    #menu--closed {
+        display: none;
+    }
+    
+    .header__pages {
+        display: flex;
+        flex-direction: row;
+        border: none;
+        margin: 0 auto;
+        padding-top: none;
+        padding-bottom: none;
+        align-items: center;
+        padding: unset;
+    }
+    
+    .header__page {
+        padding: 16px;
+    }
+    
+    .header__page a {
+        color: #36536B;
+        opacity: 0.7;
+        font-size: 15px;
+    }
+    
+    .button__container--centered {
+        text-align: center;
+    }
+    
+    .button__navigation--dark {
+        padding: unset;
+        width: 173px;
+        height: 38px;
+        cursor: pointer;
+    }
 }
 
 
@@ -221,7 +289,17 @@ a {
     position: absolute;
 }
 
+@media (min-width: 768px) {
+    .bg-circle__container--hero {   
+        height: 300px;
+        position: absolute;
+    }
 
+    .bg-circle--hero {
+        margin-top: -500px;
+        left: 500px;
+    }
+}
 
 /* ====================
     Index/Home
