@@ -628,6 +628,13 @@ a {
     margin-bottom: 4em;
 }
 
+.plan__description {
+    display: none;
+    color: #6C8294;
+    margin: 1em auto 2.8em auto;
+    padding: 0.8em;
+}
+
 .plan__price {
     font-size: 3.5em;
     font-family: 'DM Serif Display', serif;
@@ -688,6 +695,19 @@ a {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 0.625em;
     }  
+
+    .pricing__title {
+        font-size: 3rem;
+        margin-bottom: 1.2em;
+    }
+
+    .plan__title {
+        margin: unset;
+    }
+
+    .plan__description {
+        display: block;
+    }
 }
 
 
