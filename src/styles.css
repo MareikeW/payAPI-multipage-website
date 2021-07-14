@@ -342,6 +342,7 @@ a {
     position: relative;
     align-items: center;
     background: #EDF3F8;
+    padding-bottom: 3em;
 }
 
 .intro-content {
