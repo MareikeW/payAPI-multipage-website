@@ -369,9 +369,73 @@ a {
     font-family: 'Public Sans';
 }
 
+.demo-form-wrapper {
+    width: 100%;
+ }
+ 
+.demo-form {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2em;
+    outline: unset;
+}
+
+.demo-form__input {
+    width: 100%;
+}
+
+.form__input--demo-email, .form__input--demo-btn {
+    width: 100%;
+}
+
 .intro-content__note {
     color: #6C8294;
+}
 
+/* Tablet Version */
+
+@media screen and (min-width: 768px) {
+    .section-heading--intro {
+        font-size: 3rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    /* Schedule Demo Form */
+    .demo-form {
+        flex-direction: row;
+        justify-content: center;    
+        max-width: 445px;
+        position: relative;
+    }
+
+    .demo-form__input {
+        width: auto;
+    }
+
+    .form__input--demo-email, .form__input--demo-btn {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    /* .form__input--ready-to-start-email, .form__input--ready-to-start-btn {
+        margin-bottom: 0;
+    } */
+
+    .form__input--demo-email {
+        padding-right: 15em;
+        width: 100%;
+    }
+
+    .form__input--demo-btn {
+        position: absolute;
+        right: 0;
+        padding-left: 1.6em;
+        padding-right: 1.6em;
+    }
 }
 
 /* Who We Work With - section */

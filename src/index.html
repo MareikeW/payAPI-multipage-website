@@ -36,10 +36,16 @@
     <section class="container container--index-intro">
       <div class="intro-content">
         <h1 class="section-heading--dark section-heading--intro"> Start building with our APIs for absolutely free.</h1>
-        <form class="form">
-          <input class="form__input form__input--email" type="email" name="email" placeholder="Enter email address" aria-label="email">
-          <input class="form__input form__input--btn" type="submit" value="Schedule a Demo">
-        </form>
+        <div class="demo-form-wrapper">
+          <form class="demo-form">
+            <div class="demo-form__input">
+              <input type="email" placeholder="Enter email address" aria-label="email" class="form__input  form__input--email form__input--demo-email"/>
+            </div>
+            <div class="demo-form__input">
+              <input type="submit" value="Schedule a Demo" aria-label="submit" class="form__input form__input--btn form__input--demo-btn" />
+            </div>
+          </form>      
+        </div>
         <p class="intro-content__note">Have any questions? <strong>Contact Us</strong></p>
       </div>
       <div class="intro-img-container">
