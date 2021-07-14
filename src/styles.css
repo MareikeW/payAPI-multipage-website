@@ -523,7 +523,7 @@ a {
 }
 
 .section-heading--implement {
-    font-size: 3em;
+    font-size: 2.25rem;
     margin-bottom: 0.7em;
 }
 
@@ -540,6 +540,13 @@ a {
 
 .implement-text {
     color: #6C8294;
+}
+
+/* Tablet version */
+@media screen and (min-width: 768px) {
+    .section-heading--implement {
+        font-size: 3rem;
+    }
 }
 
 /* Simple UI & UX - section */
