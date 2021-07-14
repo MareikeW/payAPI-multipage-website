@@ -672,7 +672,11 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-   
+   .section-heading--ready {
+       font-size: 3rem;
+       margin-bottom: 0.5em;
+   }
+
     .ready-to-start__form {
         flex-direction: row;
         justify-content: center;    
