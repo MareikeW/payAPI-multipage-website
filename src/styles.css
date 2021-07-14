@@ -515,6 +515,7 @@ a {
 
     .section-heading--work {
         font-size: 3rem;
+        margin-top: 0.7em;
     }
 
     .work-text {
@@ -523,7 +524,7 @@ a {
     }
 
     .bg-circle--work { 
-        top: -84%;  
+        top: -80%;  
     }
 }
 
