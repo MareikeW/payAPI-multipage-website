@@ -423,10 +423,6 @@ a {
         margin-bottom: 0;
     }
 
-    /* .form__input--ready-to-start-email, .form__input--ready-to-start-btn {
-        margin-bottom: 0;
-    } */
-
     .form__input--demo-email {
         padding-right: 15em;
         width: 100%;
@@ -505,6 +501,10 @@ a {
 @media (min-width: 768px) {
     .company-logo-container {
         grid-template: repeat(2, auto) / repeat(3, auto);
+    }
+
+    .section-heading--work {
+        font-size: 3rem;
     }
 }
 
