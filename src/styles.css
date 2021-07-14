@@ -168,6 +168,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
     }
 
     .header__container {
@@ -319,12 +320,9 @@ a {
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
-    /* border: 1px solid red; */
-    
 }
 
-.bg-circle--header { 
+.bg-circle--header-index { 
     max-width: 500px;
     position: absolute;
     z-index: 1;
@@ -400,6 +398,18 @@ a {
 /* Tablet Version */
 
 @media screen and (min-width: 768px) {
+   
+    .bg-circle-container--index-intro {
+        flex-shrink: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    .bg-circle--header-index {
+        position: absolute;
+        top: -470px;
+    }
+
     .section-heading--intro {
         font-size: 3rem;
         padding-left: 2em;
