@@ -28,18 +28,24 @@
           <button class="button__navigation--dark" onclick="window.location.href='./contact.html'">Schedule a Demo</button> 
         </div>
       </nav>
-      <div class="bg-circle-container">
-        <img src="./assets/shared/desktop/bg-pattern-circle.svg" class="bg-circle--header">
+      <div class="bg-circle-container bg-circle-container--index-intro">
+        <img src="./assets/shared/desktop/bg-pattern-circle.svg" class="bg-circle--header-index">
       </div>
     </header>
     
     <section class="container container--index-intro">
       <div class="intro-content">
         <h1 class="section-heading--dark section-heading--intro"> Start building with our APIs for absolutely free.</h1>
-        <form class="form">
-          <input class="form__input form__input--email" type="email" name="email" placeholder="Enter email address" aria-label="email">
-          <input class="form__input form__input--btn" type="submit" value="Schedule a Demo">
-        </form>
+        <div class="demo-form-wrapper">
+          <form class="demo-form">
+            <div class="demo-form__input">
+              <input type="email" placeholder="Enter email address" aria-label="email" class="form__input  form__input--email form__input--demo-email"/>
+            </div>
+            <div class="demo-form__input">
+              <input type="submit" value="Schedule a Demo" aria-label="submit" class="form__input form__input--btn form__input--demo-btn" />
+            </div>
+          </form>      
+        </div>
         <p class="intro-content__note">Have any questions? <strong>Contact Us</strong></p>
       </div>
       <div class="intro-img-container">
@@ -146,7 +152,7 @@
     </section>
     
     <section class="container ready-to-start__section">
-      <h2>Ready to start?</h2>
+      <h2 class="section-heading--dark section-heading--ready">Ready to start?</h2>
       <div class="ready-to-start__form-wrapper">
         <form class="ready-to-start__form">
           <div class="ready-to-start__form-input">
@@ -173,7 +179,7 @@
         <img class="footer__social__icon" src="./assets/shared/desktop/twitter.svg" alt="Twitter logo">
         <img class="footer__social__icon" src="./assets/shared/desktop/linkedin.svg" alt="LinkedIn logo">
       </div>
-      <div class="bg-circle-container">
+      <div class="bg-circle-container bg-circle-container--index-intro">
         <img src="./assets/shared/desktop/bg-pattern-circle.svg" class="bg-circle--footer">
       </div>
     </footer>
