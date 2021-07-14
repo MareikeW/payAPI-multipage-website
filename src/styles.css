@@ -621,6 +621,19 @@ a {
     color: #6C8294;
 }
 
+/* Tablet version */
+@media screen and (min-width: 768px) {
+    .container--index-features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+
+    .feature {
+        margin-bottom: 0;
+    }
+}
+
 /* ====================
  Ready-To-Start-Container
 ======================= */
