@@ -569,11 +569,18 @@ a {
 
 .section-heading--simple {
     margin-bottom: 0.7em;
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 
 .simple-text {
     color: #6C8294;
+}
+
+/* Tablet version */
+@media screen and (min-width: 768px) {
+    .section-heading--simple {
+        font-size: 3rem;
+    }
 }
 
 /* Features -section */
