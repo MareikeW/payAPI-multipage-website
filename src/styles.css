@@ -242,7 +242,6 @@ a {
     justify-content: center;
     text-align: center;
     padding: 0 2em;
-    border: 1px solid green;
 }
 
 .form {
@@ -849,6 +848,18 @@ a {
 @media screen and (min-width: 1024px) {
     .pricing__title {
         text-align: left;
+    }
+
+    .plan__title, .plan__price, .plan__description {
+        text-align: left;
+    }
+
+    .plan__description {
+        padding: unset;
+    }
+
+    .plan__options-box {
+        align-items: start;
     }
 }
 
