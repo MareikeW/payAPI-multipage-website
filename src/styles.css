@@ -855,6 +855,10 @@ a {
         text-align: left;
     }
 
+    .plan__title {
+        font-size: 2em;
+    }
+
     .plan__description {
         padding: unset;
     }
