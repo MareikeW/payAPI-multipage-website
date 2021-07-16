@@ -848,14 +848,11 @@ a {
 @media screen and (min-width: 1024px) {
     .pricing__title {
         text-align: left;
+        font-size: 3.5rem;
     }
 
     .plan__title, .plan__price, .plan__description {
         text-align: left;
-    }
-
-    .plan__title {
-        font-size: 3.5rem;
     }
 
     .plan__description {
