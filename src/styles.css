@@ -741,7 +741,7 @@ a {
     background: #EDF3F8;
 }
 
-.section-heading--pricing {
+.pricing__title {
     margin-top: 0.5em;
 }
 
@@ -836,6 +836,12 @@ a {
     }
 }
 
+/* Dekstop Version */
+@media screen and (min-width: 1024px) {
+    .pricing__title {
+        text-align: left;
+    }
+}
 
 /* ====================
          About
