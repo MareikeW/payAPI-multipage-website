@@ -242,6 +242,7 @@ a {
     justify-content: center;
     text-align: center;
     padding: 0 2em;
+    border: 1px solid green;
 }
 
 .form {
@@ -290,6 +291,7 @@ a {
     position: absolute;
 }
 
+/* Tablet Version */
 @media (min-width: 768px) {
     .bg-circle__container--hero {   
         height: 300px;
@@ -299,6 +301,13 @@ a {
     .bg-circle--hero {
         margin-top: -500px;
         left: 500px;
+    }
+}
+
+/* Desktop Version */
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 0 10.3em;
     }
 }
 
