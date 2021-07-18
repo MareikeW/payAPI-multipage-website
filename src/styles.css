@@ -853,6 +853,7 @@ a {
 
     .pricing-plans__wrapper {
         grid-gap: 2em;
+        margin-bottom: 2.5em;
     }  
 
     .plan {
@@ -860,10 +861,6 @@ a {
         flex-direction: column;
         align-items: start;
     }
-
-    /* .plan__title, .plan__price, .plan__description {
-        text-align: left;
-    } */
 
     .plan__description {
         text-align: left;
