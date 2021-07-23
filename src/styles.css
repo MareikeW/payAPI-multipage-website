@@ -1255,3 +1255,11 @@ footer {
         z-index: -1;
     }
 }
+
+/* Footer - Desktop Version */
+@media screen and (min-width: 1024px) {
+    footer {
+        padding-left: 10.3em;
+        padding-right: 10.3em;
+    }
+}
