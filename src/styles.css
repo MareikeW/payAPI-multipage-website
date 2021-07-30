@@ -1074,7 +1074,7 @@ a {
 /* ====================
         Contact
 ======================= */
-.contact-form__section {
+.contact__container--desktop {
     text-align: center;
     color: #36536B;
     margin: 0 24px;
@@ -1184,7 +1184,7 @@ a {
 
 /*       Tablet          */
 @media (min-width: 768px) {
-    .contact-form__section h1 {
+    .contact__container--desktop h1 {
         width: 530px;
         margin: 0 auto;
     }
@@ -1204,7 +1204,57 @@ a {
         width: 445px;
         margin: 0 auto;
     }
+}
 
+/* Desktop */
+@media (min-width: 1024px) {
+    .contact__container--desktop {
+        display: grid;
+        grid-template-areas: "heading heading"
+        "form innovators";
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .contact__container--desktop h1 {
+        width: 660px;
+        margin: unset;
+        text-align: left;
+        grid-area: heading;
+        margin-bottom: 43px;
+    }
+
+    .contact__form {
+        width: 445px;
+        grid-area: form;
+    }
+
+    .contact__form input,
+    .contact__form textarea {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.12px;
+    }
+
+    .innovators__section--light h3 {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .innovators__section--light {
+        grid-area: innovators;
+        margin-top: 165px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .contact__container--desktop {  
+        width: 1200px;
+    }
+
+    .contact__container--desktop h1 {  
+        margin-left: 45px;
+    }
 }
 
 /* ====================
