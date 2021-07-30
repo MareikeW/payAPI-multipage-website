@@ -769,6 +769,11 @@ a {
         padding-right: unset;
     }
 
+    .ready-to-start__section--about, .ready-to-start__section--contact, .ready-to-start__section--index {
+        padding-left: 10.3em;
+        padding-right: 10.3em;
+    }
+
     .section-heading--ready {
         margin: unset;
         line-height: 1.1em;
