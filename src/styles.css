@@ -710,6 +710,7 @@ a {
     outline: none;
 }
 
+/* Tablet Version */
 @media screen and (min-width: 768px) {
    .section-heading--ready {
        font-size: 3rem;
@@ -719,12 +720,19 @@ a {
     .ready-to-start__form {
         flex-direction: row;
         justify-content: center;    
-        max-width: 445px;
+        max-width: 550px;
         position: relative;
+        /* border: 3px solid purple; */
     }
 
     .ready-to-start__form-input {
         width: auto;
+        /* border: 2px solid green; */
+    }
+
+    .ready-to-start__form-input--email {
+        /* border: 1px solid red; */
+        width: 100%;
     }
 
     .form__input--ready-to-start-email, .form__input--ready-to-start-btn {
@@ -748,6 +756,39 @@ a {
     }
 }
 
+/* Desktop Version */
+@media screen and (min-width: 1024px) {
+    .ready-to-start__section {
+        width: auto;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .section-heading--ready {
+        margin: unset;
+        line-height: 1.1em;
+        flex: 0 1 auto;
+        /* border: 1px solid red; */
+        margin-right: 1.2em;
+    }
+
+    .ready-to-start__form-wrapper {
+        width: auto;
+        display: flex;
+        flex: 1 0 auto;/* grow, shrink, basis */
+        justify-content: flex-end;
+        /* border: 1px solid green; */
+    }
+
+    .ready-to-start__form {
+        margin: unset;
+    }
+}
 /* ====================
     Pricing
 ======================= */
