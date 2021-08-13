@@ -537,14 +537,17 @@ a {
 
 /* Who We Work With - section */
 .container--index-work {
-    display: flex;
     width: 100%;
-    flex-direction: column;
     background: #1B262F;
     text-align: center;
     position: relative;
     overflow: hidden;
     padding: 5em 2em;
+}
+
+.index-work__wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .bg-circle--work {
