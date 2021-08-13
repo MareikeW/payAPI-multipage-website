@@ -494,6 +494,47 @@ a {
     }
 }
 
+/* Desktop Version */
+@media screen and (min-width: 1024px) {
+    .container--index-intro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* border: 1px solid blue; */
+    }
+
+    .intro-content {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        order: 1;
+        /* border: 1px solid green; */
+        max-width: 60%;
+        margin-right: 4em;
+    }
+
+    .section-heading--intro {
+        padding: unset;
+        font-size: clamp(3rem, 5vw, 4.5rem);
+        line-height: 4.5rem;
+    }
+
+    .demo-form {
+        margin: unset;
+    }
+
+    .intro-img-container {
+        /* border: 1px solid red; */
+        order: 2;
+        max-width: 40%;
+    }
+    .intro-img {
+        width: 100%;
+    }
+}
+
 /* Who We Work With - section */
 .container--index-work {
     display: flex;
