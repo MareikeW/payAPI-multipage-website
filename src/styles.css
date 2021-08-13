@@ -537,14 +537,17 @@ a {
 
 /* Who We Work With - section */
 .container--index-work {
-    display: flex;
     width: 100%;
-    flex-direction: column;
     background: #1B262F;
     text-align: center;
     position: relative;
     overflow: hidden;
     padding: 5em 2em;
+}
+
+.index-work__wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .bg-circle--work {
@@ -583,6 +586,7 @@ a {
     color: #FBFCFE;
     opacity: 0.7;
     line-height: 2em;
+    margin-bottom: 2em;
 
 }
 
@@ -614,6 +618,46 @@ a {
 
     .bg-circle--work { 
         top: -80%;  
+    }
+}
+
+/* Desktop Version */
+@media screen and (min-width: 1240px) {
+    .container--index-work {
+        padding-left: 10.3em;
+        padding-right: 10.3em;
+    }
+
+    .index-work__wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 8em;
+    }
+
+    .index-work__content {
+        text-align: left;
+        /* border: 1px solid red; */
+        flex: 2 0;
+    }
+
+    .section-heading--work {
+        line-height: 3rem;
+    }
+
+    .work-text {
+        padding: unset;
+    }
+
+    .company-logo-container {
+        order: 2;
+        flex: 1 0 auto;
+        margin-bottom: unset;
+    }
+
+    .bg-circle--work {
+        top: unset;
+        left: -15%;
+        top: -40%;
     }
 }
 
