@@ -621,6 +621,46 @@ a {
     }
 }
 
+/* Desktop Version */
+@media screen and (min-width: 1240px) {
+    .container--index-work {
+        padding-left: 10.3em;
+        padding-right: 10.3em;
+    }
+
+    .index-work__wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 8em;
+    }
+
+    .index-work__content {
+        text-align: left;
+        /* border: 1px solid red; */
+        flex: 2 0;
+    }
+
+    .section-heading--work {
+        line-height: 3rem;
+    }
+
+    .work-text {
+        padding: unset;
+    }
+
+    .company-logo-container {
+        order: 2;
+        flex: 1 0 auto;
+        margin-bottom: unset;
+    }
+
+    .bg-circle--work {
+        top: unset;
+        left: -15%;
+        top: -40%;
+    }
+}
+
 /* Easy to implement - section */
 
 .container--index-implement {
