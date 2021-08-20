@@ -500,8 +500,9 @@ a {
     .bg-circle--header-index {
         /* border: 1px solid red; */
         top: unset;
-        top: -280px;
-        right: -35%;
+        top: -160px;
+        right: -15%;
+        transform: scale(1.5);
     }
 
     .container--index-intro {
