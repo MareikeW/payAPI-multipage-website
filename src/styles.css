@@ -446,7 +446,7 @@ a {
 /* Tablet Version */
 
 @media screen and (min-width: 768px) {
-   
+ 
     .bg-circle-container--index-intro {
         flex-shrink: 0;
         position: absolute;
@@ -496,8 +496,12 @@ a {
 
 /* Desktop Version */
 @media screen and (min-width: 1024px) {
+
     .bg-circle--header-index {
         /* border: 1px solid red; */
+        top: unset;
+        top: -280px;
+        right: -35%;
     }
 
     .container--index-intro {
