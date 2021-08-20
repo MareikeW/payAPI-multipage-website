@@ -404,7 +404,7 @@ a {
 .intro-img-container {
     order: -1;
     position: relative;
-    z-index: 2;
+    z-index: 10;
 }
 
 .intro-img {
@@ -498,10 +498,6 @@ a {
 @media screen and (min-width: 1024px) {
     .bg-circle--header-index {
         /* border: 1px solid red; */
-    }
-
-    .intro-img-container {
-        z-index: 10;
     }
 
     .container--index-intro {
