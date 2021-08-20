@@ -496,6 +496,14 @@ a {
 
 /* Desktop Version */
 @media screen and (min-width: 1024px) {
+    .bg-circle--header-index {
+        /* border: 1px solid red; */
+    }
+
+    .intro-img-container {
+        z-index: 10;
+    }
+
     .container--index-intro {
         display: flex;
         flex-direction: row;
