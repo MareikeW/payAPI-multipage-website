@@ -709,6 +709,31 @@ a {
     }
 }
 
+/* Desktop version */
+@media screen and (min-width: 1024px) {
+    .container--index-implement { 
+        display: grid;
+        gap: 4em;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        padding-left: 10.3em;
+        padding-right: 10.3em;
+    }
+
+    .implement__content {
+        text-align: left;
+    }
+
+    .section-heading--implement {
+        line-height: 3rem;
+    }
+  
+    .section-img--implement {
+        width: 100%;
+        top: 50px;
+    } 
+}
+
 /* Simple UI & UX - section */
 
 .container--index-simple {
