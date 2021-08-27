@@ -1339,7 +1339,7 @@ a {
     opacity: 0;
 }
 
-.checkmark--custom {
+#checkbox {
     position: absolute;
     top: 30%;
     left: 0;
@@ -1347,6 +1347,16 @@ a {
     width: 24px;
     background-color: rgba(54, 83, 107, 0.25);
     cursor: pointer;
+}
+
+#checkmark {
+    position: absolute;
+    top: 42%;
+    left: 5px;
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+    filter: invert(99%) sepia(100%) saturate(2%) hue-rotate(52deg) brightness(104%) contrast(100%);
 }
 
 .contact-checkbox__container label {
@@ -1365,6 +1375,12 @@ a {
     cursor: pointer;
     background-color: unset;
     border: 1.5px solid #36536B;
+}
+
+.contact__form button:hover,
+.contact__form button:focus {
+    background-color: #36536B;
+    color: #FFFFFF;
 }
 
 .innovators__section--light {

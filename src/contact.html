@@ -45,7 +45,8 @@
         <textarea placeholder="Message" aria-label="message"></textarea>
         <div class="contact-checkbox__container">
           <input type="checkbox" id="newsletter__checkbox" />
-          <span class="checkmark--custom"></span>
+          <img src="assets/shared/desktop/icon-check.svg" id="checkmark"></img>
+          <span id="checkbox"></span>
           <label for="newsletter__checkbox">Stay up-to-date with company announcements and updates to our API</label>
         </div>
         <button type="submit">Submit</button>
@@ -127,6 +128,10 @@
       const closeMenu = document.getElementById("menu--closed");
       const navigation = document.getElementsByClassName("navigation");
 
+      let checkbox = document.getElementById("checkbox");
+      let checkmark = document.getElementById("checkmark");
+      let isCheckboxClicked = false;
+
       openMenu.addEventListener("click", openNavigation);
       closeMenu.addEventListener("click", closeNavigation);
 
@@ -138,6 +143,16 @@
       function closeNavigation() {
         navigation[0].style.opacity = 0;
         navigation[0].style.width = 0;        
+      }
+
+      checkbox.addEventListener("click", toggleCheckbox);
+      checkmark.addEventListener("click", toggleCheckbox);
+
+      function toggleCheckbox() {
+        console.log(isCheckboxClicked)
+        isCheckboxClicked ? isCheckboxClicked = false : isCheckboxClicked = true;
+        checkmark.style.display === "none" ? checkmark.style.display = "block" : checkmark.style.display = "none";
+        checkbox.style.backgroundColor === "rgba(54, 83, 107, 0.25)" ? checkbox.style.backgroundColor = "#BA4270" : checkbox.style.backgroundColor = "rgba(54, 83, 107, 0.25)";
       }
     </script>
   </body>
